@@ -1,0 +1,93 @@
+.hotelContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border: 1px solid #939393;
+    margin: 5px auto;
+    border-radius: 6px;
+    position: relative;
+}
+
+.hotelContainer:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+.hotelPhotoWrapper{
+    display: flex;
+}
+.hotelPhotoWrapper img {
+    width: 350px;
+}
+
+.hotelInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    /*width: 100%;*/
+    padding-left: 30px;
+}
+
+.hotelInfoWrapper_main {
+    display: flex;
+    align-items: center;
+    /*justify-content: space-around;*/
+}
+
+.hotelInfoWrapper_main img {
+    width: 20px;
+    padding-left: 10px;
+}
+
+.hotelInfoWrapper_des {
+    display: flex;
+    width: 100%;
+}
+
+.hotelInfoWrapper_des__price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.hotelInfoWrapper_des__priceBtn {
+    border: none;
+    outline: none;
+    background-color: #f2b203;
+    margin: 10px 0;
+    padding: 13px 20px;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.hotelInfoWrapper_des__priceBtn:hover {
+    background-color: #ffcd41;
+}
+
+.hotelInfoWrapper_des__special {
+    border: 1px red solid;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.hotelInfoWrapper_des__addit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+
+.hotelInfoWrapper_des__addit img {
+    width: 20px;
+}
+
+.hotelInfoWrapper_des__addit a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px #282c34 solid;
+}
+.hotelInfoWrapper_des__addit a:hover {
+    color: #363636;
+}
